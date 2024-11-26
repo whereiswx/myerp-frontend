@@ -1,0 +1,11 @@
+<div class="grid1">
+    @for(menu of menuList; track menu)
+    {
+        <div class="{{menu.bg}}">
+            <div class="text-center" routerLink="{{menu.link}}">
+                <i class="{{menu.faicon}}"></i>
+                <p>{{menu.id}}</p>
+            </div>
+        </div>
+    }
+</div>
