@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "simpleweb01": {
+    "myerp": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/simpleweb01",
+            "outputPath": "dist/myerp",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "simpleweb01:build:production"
+              "buildTarget": "myerp:build:production"
             },
             "development": {
-              "buildTarget": "simpleweb01:build:development"
+              "buildTarget": "myerp:build:development"
             }
           },
           "defaultConfiguration": "development"
